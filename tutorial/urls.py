@@ -20,5 +20,5 @@ schema_view = get_swagger_view(title='DRF Tutorial')
 
 urlpatterns = [
     url(r'^$', schema_view),
-    url(r'^snippets/', include('snippets.urls')),
+    url(r'^', include('snippets.urls')),
 ]
