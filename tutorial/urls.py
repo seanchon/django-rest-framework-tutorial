@@ -14,7 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
+from rest_framework_swagger.views import get_swagger_view
+
+schema_view = get_swagger_view(title='DRF Tutorial')
 
 urlpatterns = [
-    url(r'^', include('snippets.urls')),
+    url(r'^$', schema_view),
+    url(r'^snippets/', include('snippets.urls')),
 ]
