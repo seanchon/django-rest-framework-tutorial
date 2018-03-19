@@ -16,7 +16,6 @@ Including another URLconf
 from rest_framework_swagger.views import get_swagger_view
 
 from django.conf.urls import url, include
-from django.conf.urls import include
 
 schema_view = get_swagger_view(title='DRF Tutorial')
 
