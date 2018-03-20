@@ -13,3 +13,5 @@ $ source env/bin/activate
 (env)$ python manage.py migrate
 (env)$ python manage.py runserver_plus
 ```
+
+Based on the writeup at https://michaelwashburnjr.com/django-user-authentication/
