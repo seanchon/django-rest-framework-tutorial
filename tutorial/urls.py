@@ -22,6 +22,7 @@ schema_view = get_swagger_view(title='DRF Tutorial')
 
 urlpatterns = [
     url(r'^$', schema_view),
+    url(r'^$', include('rest_auth.urls')),
     url(r'^tutorial/', include('snippets.urls')),
     url(r'^api-auth/', include('rest_framework.urls')),
     url(r'^admin/', admin.site.urls),
