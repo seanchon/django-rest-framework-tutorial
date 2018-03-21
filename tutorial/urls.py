@@ -16,6 +16,7 @@ Including another URLconf
 from rest_framework_swagger.views import get_swagger_view
 
 from django.conf.urls import url, include
+from django.contrib import admin
 
 schema_view = get_swagger_view(title='DRF Tutorial')
 
@@ -23,4 +24,5 @@ urlpatterns = [
     url(r'^$', schema_view),
     url(r'^tutorial/', include('snippets.urls')),
     url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^admin/', admin.site.urls),
 ]
