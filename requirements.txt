@@ -8,7 +8,7 @@ coreapi==2.3.3
 coreapi-cli==1.0.9
 coreschema==0.0.4
 decorator==4.4.0
-Django==2.2
+Django==2.2.4
 django-extensions==2.1.6
 django-rest-swagger==2.2.0
 djangorestframework==3.9.2
@@ -41,4 +41,4 @@ typing==3.6.6
 uritemplate==3.0.0
 urllib3==1.24.2
 wcwidth==0.1.7
-Werkzeug==0.15.2
+Werkzeug==0.15.5
