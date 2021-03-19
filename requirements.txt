@@ -11,7 +11,7 @@ decorator==4.4.0
 Django==2.2.13
 django-extensions==2.1.6
 django-rest-swagger==2.2.0
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 enum34==1.1.6
 httpie==1.0.3
 idna==2.8
