@@ -15,7 +15,7 @@ djangorestframework==3.11.2
 enum34==1.1.6
 httpie==1.0.3
 idna==2.8
-ipython==7.4.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 itypes==1.1.0
 jedi==0.13.3
