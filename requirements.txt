@@ -35,7 +35,7 @@ scandir==1.10.0
 simplegeneric==0.8.1
 simplejson==3.16.0
 six==1.12.0
-sqlparse==0.3.0
+sqlparse==0.4.4
 traitlets==5.9.0
 typing==3.6.6
 uritemplate==3.0.0
