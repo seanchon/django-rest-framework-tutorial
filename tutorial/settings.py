@@ -67,6 +67,9 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'libraries': {
+                'staticfiles': 'django.templatetags.static',
+            },
         },
     },
 ]
@@ -83,6 +86,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
 
 # Password validation
@@ -130,5 +134,6 @@ LOGOUT_URL = 'rest_framework:logout'
 # DRF Settings
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
     'PAGE_SIZE': 10
 }
