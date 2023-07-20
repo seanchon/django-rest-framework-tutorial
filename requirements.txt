@@ -28,7 +28,7 @@ pexpect==4.7.0
 pickleshare==0.7.5
 prompt-toolkit==3.0.38
 ptyprocess==0.6.0
-Pygments==2.7.4
+Pygments==2.15.0
 pytz==2019.1
 requests==2.28.2
 scandir==1.10.0
